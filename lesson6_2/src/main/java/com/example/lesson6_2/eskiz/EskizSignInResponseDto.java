@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class EskizSignInResponseDto {
     private String message;
-
+    private ResponseData data;
     @JsonProperty("token_type")
     private String tokenType;
 
