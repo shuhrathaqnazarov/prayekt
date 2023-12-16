@@ -1,0 +1,22 @@
+
+
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5433/postgres
+    password: postgres
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 100e86d46ed09afccef9
+            client-secret: 6dff7c55e185099e521d1153daad9ec621e20109
+          google:
+            client-id: 185054873189-olnbq9gh4udrjcdh9dtpaj6onsspmqgg.apps.googleusercontent.com
+            client-secret: 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
+application:
+  eskiz:
+    password: dOnShjhUfz5ixLaLNUZtzYmEDWGBHxLPwKsJP235
+    email: shuhrathaqnazarov2002@gmail.com
+

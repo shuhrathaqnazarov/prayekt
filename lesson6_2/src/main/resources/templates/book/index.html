@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Menga Kitob Do'koni</title>
+</head>
+<body>
+<header>
+  <h1>Menga Kitob Do'koni</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#">Bosh sahifa</a></li>
+    <li><a href="#">Kitoblar</a></li>
+    <li><a href="#">Kontaktlar</a></li>
+  </ul>
+</nav>
+
+<section id="books">
+  <!-- Bu joyda kitoblar ro'yxati bo'ladi -->
+  <article class="book">
+    <img src="book1.jpg" alt="Kitob 1">
+    <h2>Kitob 1 nomi</h2>
+    <p>Kitob 1 tavsif...</p>
+    <button onclick="addToCart(1)">Savatchaga qo'shish</button>
+  </article>
+
+  <article class="book">
+    <img src="book2.jpg" alt="Kitob 2">
+    <h2>Kitob 2 nomi</h2>
+    <p>Kitob 2 tavsif...</p>
+    <button onclick="addToCart(2)">Savatchaga qo'shish</button>
+  </article>
+  <!-- Boshqa kitoblar ham shu tarzda qo'shiladi -->
+</section>
+
+<aside id="cart">
+  <!-- Bu joyda savatcha ko'rinishi bo'ladi -->
+  <h2>Savatcha</h2>
+  <ul id="cart-items">
+    <!-- Savatcha ichidagi narsalar bu yerda chiqadi -->
+  </ul>
+  <button onclick="checkout()">Buyurtma berish</button>
+</aside>
+
+<footer>
+  <p>&copy; 2023 Menga Kitob Do'koni</p>
+</footer>
+
+<script src="indexJs.js.js"></script>
+</body>
+</html>

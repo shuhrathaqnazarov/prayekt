@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sms sender project</title>
+</head>
+<body>
+<form th:action="@{/sms}" method="post">
+  <input type="text" placeholder="Phone number" name="phoneNumber" >
+  <input type="text" placeholder="Message" name="message" >
+  <button type="submit">Send sms</button>
+</form>
+</body>
+</html>
